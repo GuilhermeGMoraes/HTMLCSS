@@ -1,0 +1,173 @@
+@charset "UTF-8";
+/* body */
+body{
+    box-sizing: border-box;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+/*header */
+header#topo-site {
+    position: relative;
+    height: auto;
+    width: 100vw;
+    border-bottom: 1px solid #000;
+    margin-bottom: 1em;
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+header#topo-site:after{
+clear: both;
+display: block;
+content:"";
+}
+
+div#logo {
+width: 10%;
+height: 100px;
+float: left;
+}
+
+div#logo figure{
+line-height: 5px;
+
+}
+
+nav {
+position: relative;
+float: right;
+width: 15%;
+margin-right: auto;
+margin-left: auto;
+height: 100px;
+top: 5;
+}
+
+nav ul {
+list-style: none;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+nav ul li {
+display: inline-block;
+}
+
+nav ul li a{
+text-decoration: none;
+margin: 10px 5px;
+}
+
+div#topo-conteudo {
+position: relative;
+width: 80vw;
+margin-left: 90px;
+margin-right: auto;
+}
+
+/* Main */
+main, footer, .container {
+position: relative;
+width: 80vw;
+margin-left: auto;
+margin-right: auto;
+padding: 1em;
+border: 1px solid #ccc;
+border-radius: 6px 6px;
+box-shadow: 2px 3px #ccc;
+
+
+}
+h1, h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+article {
+ position: relative;
+ border-bottom: 1px solid #6c6c6c;
+}
+
+article:last-child {
+ border-bottom: none;
+}
+
+article time{
+ position: absolute;
+ right: .5em;
+ top: 3px
+}
+
+/* Footer */
+footer {
+ position: relative;
+ margin-top: 2em;
+ box-shadow: none;
+ background-color: #0000ff;
+ color: white;
+
+}
+
+footer section{
+ display: inline-block;
+ width: 40%;
+ padding: .3em;
+}
+
+footer section#rede-social{
+ text-align: right;
+ font-size: 20px;
+
+}
+
+/* Forms */
+a:visited{
+    color: rgb(85, 23, 241);
+    text-decoration: none;
+  }
+
+a:hover {
+    color: rgb(216, 90, 153);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(7, 1, 9);
+    text-decoration: none;
+}
+
+.container {
+ display: flex;
+}
+
+.textos {
+ padding: 10px;
+ width: min(50%, 10px);
+}
+
+.cadastro {
+ width: calc(100% - 20px);
+ padding: 5px;
+}
+
+div {
+ top: 0px;
+ padding: 5px;
+ border: 1px solid white;
+}
+
+input[type=text],
+input[type=email] {
+ width: calc(100% - 15px);
+ margin-bottom: 10px;
+ padding: 5px;
+}
+
+.containerBotoes {
+ display: flex;
+ justify-content: center;
+ margin-top: 15px;
+}
+
+.botao {
+ margin: 0px 5px 0px 5px;
+}
+

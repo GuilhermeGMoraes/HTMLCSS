@@ -9,7 +9,7 @@
 
             let vemail = document.getElementById('email')
             if (vemail.value == '') {
-                alert('informe email')
+                alert('Informe email')
                 vemail.focus()
                 return
             }
@@ -18,11 +18,11 @@
             /*alert(ec[0].checked)
             alert(ec[1].checked)*/
             if (ec[0].checked != true && ec[1].checked != true) {
-                alert('informe seu pacote')
+                alert('Informe seu pacote')
                 return
             }
 
-            let pref = document.getElementsByName('pref')
+            let pref = document.getElementsByName('preferencia')
             //alert(pref.length)
             let opcoes = ''
             for (let i = 0; i < pref.length; i++) {
@@ -31,6 +31,5 @@
                 }
                 
             }
-            
             alert('Dados salvo com sucesso')
         }

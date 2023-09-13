@@ -7,17 +7,55 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <main>
-    <a href="./index.html">Página Inicial</a> 
-   <p><h1>Filmes</h1></p>
+    <header id="topo-site">
+        <div id="topo-conteudo">
+                <div id="logo">
+                        <figure>
+                            <img src="_img/logo.jfif" width="80px" height="80px" alt="Logo">
+                        </figure>
+                </div>
+            
+                    <nav>
+                        <ul>
+                            <li>
+                                <a id="login" href="index.html"><h3>Home</h3></a>
+                            </li>
+                        </ul>
+                    </nav>
+        </div>
+     </header>
+    <main> 
+   <p><h1>Catálogo de Filmes</h1></p>
    <hr>
             <div>
             <ul>
-                <li>O Senhor dos Anéis - A Sociedade do Anel</li>
-                <li>O Senhor dos Anéis - As Duas Torres</li>
-                <li>O Senhor dos Anéis - O Retorno do Rei</li>
-                <li>Coração Valente</li>
-                <li>John Wick</li>
+                <li>
+                <div class="dropdown">
+                    <span>O Senhor dos Anéis - A sociedade do anel</span>
+                    <div class="dropdown-content">
+                    <p>Filme de fantasia ganhador de 4 oscars dirigido por Peter Jackson e baseado no primeiro volume da série O Senhor dos Anéis, de J. R. R. Tolkien.</p>
+                    <a href="">Assistir</a>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                    <span>O Senhor dos Anéis - As duas torres</span>
+                    <div class="dropdown-content">
+                    <p>Filme de fantasia ganhador de 2 oscars dirigido por Peter Jackson e baseado no segundo volume da série O Senhor dos Anéis, de J. R. R. Tolkien.</p>
+                    <a href="">Assistir</a>
+                    </div>
+                </div>
+              </li>
+              <li>
+                <div class="dropdown">
+                    <span>O Senhor dos Anéis - O retorno do rei</span>
+                    <div class="dropdown-content">
+                    <p>Filme de fantasia ganhador de 11 oscars dirigido por Peter Jackson e baseado no terceiro volume da série O Senhor dos Anéis, de J. R. R. Tolkien.</p>
+                    <a href="">Assistir</a>
+                    </div>
+                </div>
+              </li>
             </ul>
             </div>
     </main>
